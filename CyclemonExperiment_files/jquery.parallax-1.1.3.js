@@ -58,7 +58,6 @@ http://www.gnu.org/licenses/gpl.html
 				if (top + height < pos || top > pos + windowHeight) {
 					return;
 				}
-				if (windowWidth > 1024){
 				if (windowHeight >= 1070){
 				$this.css('backgroundPosition', xpos + " " + Math.round((firstTop - pos - (windowHeight-height)/0.35) * speedFactor) + "px");	
 				}
@@ -71,9 +70,6 @@ http://www.gnu.org/licenses/gpl.html
 				if (windowHeight < 800){
 				$this.css('backgroundPosition', xpos + " " + Math.round((firstTop - pos - (windowHeight-height)/1.2) * speedFactor) + "px");
 				}
-				}
-				
-				
 			});
 		}		
 
