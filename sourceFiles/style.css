@@ -126,6 +126,7 @@ img{
 	z-index:50;
 	height:280px;
 	margin-top:40px;
+	top:35%;
 }
 
 
@@ -194,8 +195,8 @@ img{
 }
 #nom li a{
 	opacity:1;
-	display:none;
-	float:right;
+/*	display:none;
+*/	float:right;
 }
 
 
